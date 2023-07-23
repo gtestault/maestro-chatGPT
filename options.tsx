@@ -12,9 +12,8 @@ function IndexOption() {
           padding: 16
         }}>
         <h1>
-          Welcome to your <a href="https://www.plasmo.com">Plasmo</a> Extension!
+            No Options At This Time: Coming Soon
         </h1>
-        <Button type="primary">Fascinating</Button>
       </div>
     </ThemeProvider>
   )

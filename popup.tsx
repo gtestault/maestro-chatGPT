@@ -12,9 +12,9 @@ function IndexPopup() {
           padding: 16
         }}>
         <h1>
-          Welcome to your <a href="https://www.plasmo.com">Plasmo</a> Extension!
+            You do not need to do anything here.
         </h1>
-        <Button type="primary">Live long and prosper</Button>
+          <p>maestro will open automatically on chat.openai.com</p>
       </div>
     </ThemeProvider>
   )

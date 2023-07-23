@@ -1,0 +1,22 @@
+.maestro-root-card {
+    margin-top: auto;
+    width: 20rem;
+}
+
+.role-variables-editor-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.maestro-modal-import-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.maestro-roles-editor-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
