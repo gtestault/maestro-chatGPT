@@ -6,6 +6,9 @@ You can parameterize prompts with variables. Stop repeating yourself, and let Ma
 
 ![](./docs/img/maestro_ui.png)
 
+![](./docs/img/maestro_example.png)
+
+
 ## Features
 
 - Manage prompts
