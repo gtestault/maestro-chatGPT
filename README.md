@@ -1,6 +1,6 @@
 # Maestro: ChatGPT prompt manager
 
-[Download From Firefox Add-On Store](https://addons.mozilla.org/en-US/firefox/addon/maestro-chatgpt-automation/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+[![](./docs/img/get_on_store_badge_firefox.png)](https://addons.mozilla.org/en-US/firefox/addon/maestro-chatgpt-automation/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 
 Maestro automatically injects itself into ChatGPT. It allows you to manage prompts, and automatically injects them into the chatbox.
 
