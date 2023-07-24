@@ -1,6 +1,5 @@
 .maestro-root-card {
     margin-top: auto;
-    width: 20rem;
 }
 
 .role-variables-editor-list {
@@ -20,3 +19,12 @@
     gap: 1rem;
 }
 
+.maestro-logo {
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.maestro-logo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

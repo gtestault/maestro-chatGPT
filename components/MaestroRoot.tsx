@@ -1,24 +1,20 @@
-import React, {useEffect, useState} from "react"
+import React, {useState} from "react"
 import {Button, Card, Select, Space, Spin} from "antd";
 import ApplyRoleModal from "~components/ApplyRoleModal";
 import {useStorage} from "@plasmohq/storage/hook"
-import type {Role, Variable} from "~types";
+import type {Role} from "~types";
 import RoleVariablesEditor from "~components/RoleVariablesEditor";
 import format from "string-template"
+import {CloseOutlined} from "@ant-design/icons";
 
-type MaestroRootProps = {}
+type MaestroRootProps = {
+    onCollapse: () => void
+}
 const HOST_ID = "engage-csui"
 export default function MaestroRoot(props: MaestroRootProps) {
     const [selectedRole, setSelectedRole] = useState<Role | null>(null)
     const [isModalOpen, setIsModalOpen] = useState(false)
-    const [variables, setVariables] = useState<{[key: string]: string}>({});
-    useEffect(() => {
-        // set the #engage-csui to flex self align end
-        const injectedView = document.querySelector('#engage-csui')
-        if (injectedView) {
-            injectedView.setAttribute("style", "display: flex; align-self: flex-end;")
-        }
-    })
+    const [variables, setVariables] = useState<{ [key: string]: string }>({});
     const [roles] = useStorage<Role[]>("roles")
     const applyRole = () => {
         // set text to hello world
@@ -58,7 +54,9 @@ export default function MaestroRoot(props: MaestroRootProps) {
                 getPopupContainer={() => document.getElementById(HOST_ID).shadowRoot}
                 dropdownStyle={{zIndex: 2147483647}}
                 optionFilterProp="children"
-                onChange={(value) => {setSelectedRole(roles.find(role => role.name === value) ?? null)}}
+                onChange={(value) => {
+                    setSelectedRole(roles.find(role => role.name === value) ?? null)
+                }}
                 filterOption={(input, option) => (option?.label ?? '').includes(input)}
                 filterSort={(optionA, optionB) =>
                     (optionA?.label ?? '').toLowerCase().localeCompare((optionB?.label ?? '').toLowerCase())
@@ -75,8 +73,15 @@ export default function MaestroRoot(props: MaestroRootProps) {
             <ApplyRoleModal isModalOpen={isModalOpen} onOk={handleModalCancel} onCancel={handleModalCancel}/>
             <Card className="maestro-root-card"
                   size="small"
-                  title="maestro prompts"
-                  extra={<Button onClick={() => {setIsModalOpen(true)}} type="link">Manage Prompts</Button>}
+                  title="maestro"
+                  extra={
+                      <>
+                          <Button onClick={() => {
+                              setIsModalOpen(true)
+                          }} type="link">Manage Prompts</Button>
+                          <Button icon={<CloseOutlined/>} style={{border: "none"}} onClick={props.onCollapse}/>
+                      </>
+                  }
                   style={{width: 300}}>
                 <Space size="middle">
                     {renderRoleSelect()}

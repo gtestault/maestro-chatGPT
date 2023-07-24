@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@ant-design/cssinjs": "1.11.1",
+    "@ant-design/icons": "^5.1.4",
     "@plasmohq/messaging": "^0.5.0",
     "@plasmohq/storage": "^1.7.0",
     "antd": "5.7.0",
+    "clsx": "^2.0.0",
     "plasmo": "0.81.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
