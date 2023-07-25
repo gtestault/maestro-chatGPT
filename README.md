@@ -10,6 +10,9 @@ You can parameterize prompts with variables. Stop repeating yourself, and let Ma
 
 ![](./docs/img/maestro_example.png)
 
+![](./docs/img/prompt_library.png)
+
+![](./docs/img/prompt_editor.png)
 
 ## Features
 
@@ -17,10 +20,10 @@ You can parameterize prompts with variables. Stop repeating yourself, and let Ma
 - Parameterize prompts with variables
 - Automatically inject prompts into the chatbox
 - JSON import/export
+- Parameterized prompt editor
+- Prompt library
 
 ## Upcoming features
 
-- Parameterized prompt editor
-- Prompt library
 - Prompt sharing
 
