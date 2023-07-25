@@ -1,11 +1,11 @@
 import React from "react"
-import type {Role} from "~types";
+import type {PromptTemplate} from "~types";
 import {Divider, Input} from 'antd';
 
 const {TextArea} = Input;
 
 type RoleVariablesEditorProps = {
-    role: Role | null
+    role: PromptTemplate | null
     onVariableChange: (variableName: string, value: string) => void
 }
 export default function RoleVariablesEditor({role, onVariableChange}: RoleVariablesEditorProps) {

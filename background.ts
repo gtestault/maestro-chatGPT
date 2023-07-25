@@ -1,4 +1,4 @@
-import type {Role} from "~types";
+import type {PromptTemplate} from "~types";
 import {Storage} from "@plasmohq/storage"
 
 export {}
@@ -9,7 +9,7 @@ const storage = new Storage(
 )
 
 // roles are chatgpt prompts
-const demoRoles: Role[] = [
+const demoRoles: PromptTemplate[] = [
     {
         name: "AWS Consultant",
         description: "roleplay as an AWS consultant",

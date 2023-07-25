@@ -1,6 +1,6 @@
-import type {Role, Variable} from "~types";
+import type {PromptTemplate, Variable} from "~types";
 
-export function validateRoles(role: Role[]) {
+export function validateRoles(role: PromptTemplate[]) {
     //expect array
     if (!Array.isArray(role)) {
         throw new Error(`top level element must be an array of roles`)

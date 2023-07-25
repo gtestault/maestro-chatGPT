@@ -13,10 +13,16 @@
     gap: 1rem;
 }
 
-.maestro-roles-editor-content {
+.maestro-library-card-content {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+.maestro-library-list {
+    max-height: 40vh;
+    margin: -24px -24px -20px -24px;
+    padding: 24px;
+    overflow-y: auto;
 }
 
 .maestro-logo {
@@ -27,4 +33,26 @@
 .maestro-logo:hover {
     transform: scale(1.1);
     cursor: pointer;
+}
+
+.prompt-template-editor {
+    min-height: 20rem;
+}
+
+.maestro-editor-parameter-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.maestro-editor-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+
+.maestro-library-create-new-template-btn {
+    margin: 0 auto 1rem auto;
+
 }

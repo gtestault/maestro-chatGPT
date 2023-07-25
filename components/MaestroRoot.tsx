@@ -1,8 +1,8 @@
 import React, {useState} from "react"
 import {Button, Card, Select, Space, Spin} from "antd";
-import ApplyRoleModal from "~components/ApplyRoleModal";
+import PromptLibraryModal from "~components/PromptLibraryModal";
 import {useStorage} from "@plasmohq/storage/hook"
-import type {Role} from "~types";
+import type {PromptTemplate} from "~types";
 import RoleVariablesEditor from "~components/RoleVariablesEditor";
 import format from "string-template"
 import {CloseOutlined} from "@ant-design/icons";
@@ -12,10 +12,10 @@ type MaestroRootProps = {
 }
 const HOST_ID = "engage-csui"
 export default function MaestroRoot(props: MaestroRootProps) {
-    const [selectedRole, setSelectedRole] = useState<Role | null>(null)
+    const [selectedRole, setSelectedRole] = useState<PromptTemplate | null>(null)
     const [isModalOpen, setIsModalOpen] = useState(false)
     const [variables, setVariables] = useState<{ [key: string]: string }>({});
-    const [roles] = useStorage<Role[]>("roles")
+    const [roles] = useStorage<PromptTemplate[]>("roles")
     const applyRole = () => {
         // set text to hello world
         const promptText = (document.querySelector("textarea#prompt-textarea") as HTMLTextAreaElement)
@@ -70,7 +70,7 @@ export default function MaestroRoot(props: MaestroRootProps) {
     }
     return (
         <>
-            <ApplyRoleModal isModalOpen={isModalOpen} onOk={handleModalCancel} onCancel={handleModalCancel}/>
+            <PromptLibraryModal isModalOpen={isModalOpen} onCancel={handleModalCancel}/>
             <Card className="maestro-root-card"
                   size="small"
                   title="maestro"

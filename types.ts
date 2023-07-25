@@ -1,4 +1,4 @@
-export interface Role {
+export interface PromptTemplate {
     name: string
     description?: string
     content: string
@@ -10,3 +10,4 @@ export interface Variable {
     description?: string
     value?: string
 }
+
