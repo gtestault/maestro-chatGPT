@@ -3,7 +3,7 @@
 [![](./docs/img/get_on_store_badge_firefox.png)](https://addons.mozilla.org/en-US/firefox/addon/maestro-chatgpt-automation/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 
 [![addon](https://img.shields.io/amo/v/%7B5708ff3d-23b9-4a16-bbbf-13c32a170403%7D)](https://addons.mozilla.org/en-US/firefox/addon/maestro-chatgpt-automation/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
-<img src="https://snyk.io/test/github/gtestault/maestro-chatGPT/badge.svg"/>
+![Static Badge](https://img.shields.io/badge/Snyk_Security-monitored-8A2BE2)
 
 
 
