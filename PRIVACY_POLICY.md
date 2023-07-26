@@ -1,4 +1,4 @@
-  ## Privacy Policy for the Prompt Template Extension
+  ## Privacy Policy
 
 **Last updated: July 26, 2023**
 
