@@ -11,7 +11,7 @@ Welcome to Maestro. Maestro is a prompt template manager for ChatGPT. It allows 
 
 3. Select a prompt template from the dropdown menu
 
-![prompt template](../chrome/chrome_screen_1.png)
+![prompt template](img/chrome/chrome_screen_1.png)
 
 4. Fill in the parameters for the prompt template
 5. Click 'Apply prompt'
@@ -21,12 +21,12 @@ Welcome to Maestro. Maestro is a prompt template manager for ChatGPT. It allows 
 1. Open Maestro
 2. Click on 'Manage Prompts', You will now see a list of all your prompt templates
 
-![manage prompts](../chrome/chrome_screen_2.png)
+![manage prompts](img/chrome/chrome_screen_2.png)
 
 3. Click on 'Create New template'
 4. In the editor, give your prompt template a name and a description. The content of the prompt template is the prompt that will be injected into the chatbox. You can parameterize the prompt with parameters.
 To do so, use the following syntax: `{my_parameter}`. For example, if you want to parameterize the prompt with a variable called `name`, you would write `{name}` in the content field.
 
 
-![prompt template editor](../chrome/chrome_screen_3.png)
+![prompt template editor](img/chrome/chrome_screen_3.png)
 

@@ -4,7 +4,7 @@
 
 [![addon](https://img.shields.io/amo/v/%7B5708ff3d-23b9-4a16-bbbf-13c32a170403%7D)](https://addons.mozilla.org/en-US/firefox/addon/maestro-chatgpt-automation/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 [![Static Badge](https://img.shields.io/badge/Snyk_Security-monitored-8A2BE2)](https://snyk.io/test/github/gtestault/maestro-chatGPT)
-[![Static Badge](https://img.shields.io/badge/docs-online-green)](gtestault.github.io/maestro-chatGPT/)
+[![Static Badge](https://img.shields.io/badge/docs-online-green)](https://gtestault.github.io/maestro-chatGPT/)
 
 
 
@@ -28,11 +28,11 @@ To design your own prompt, click on 'manage prompts' and then 'create new templa
 
 ## Screenshots
 
-![](./chrome/chrome_screen_1.png)
+![](docs/img/chrome/chrome_screen_1.png)
 
-![](./chrome/chrome_screen_2.png)
+![](docs/img/chrome/chrome_screen_2.png)
 
-![](./chrome/chrome_screen_3.png)
+![](docs/img/chrome/chrome_screen_3.png)
 
 ## Features
 
