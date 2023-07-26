@@ -24,13 +24,11 @@ To design your own prompt, click on 'manage prompts' and then 'create new templa
 
 ## Screenshots
 
-![](./docs/img/maestro_ui.png)
+![](./chrome/chrome_screen_1.png)
 
-![](./docs/img/maestro_example.png)
+![](./chrome/chrome_screen_2.png)
 
-![](./docs/img/prompt_library.png)
-
-![](./docs/img/prompt_editor.png)
+![](./chrome/chrome_screen_3.png)
 
 ## Features
 
@@ -40,8 +38,4 @@ To design your own prompt, click on 'manage prompts' and then 'create new templa
 - JSON import/export
 - Parameterized prompt editor
 - Prompt library
-
-## Upcoming features
-
-- Prompt sharing
 
