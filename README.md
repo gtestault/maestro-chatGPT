@@ -1,6 +1,7 @@
 # Maestro: ChatGPT prompt manager
 
 [![](./docs/img/get_on_store_badge_firefox.png)](https://addons.mozilla.org/en-US/firefox/addon/maestro-chatgpt-automation/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+[![](./docs/img/chrome_badge_store.png)](https://chrome.google.com/webstore/detail/maestro-chatgpt-prompt-au/nemphffnipcbddbnefechopcdjheblon)
 
 [![addon](https://img.shields.io/amo/v/%7B5708ff3d-23b9-4a16-bbbf-13c32a170403%7D)](https://addons.mozilla.org/en-US/firefox/addon/maestro-chatgpt-automation/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 [![Static Badge](https://img.shields.io/chrome-web-store/v/nemphffnipcbddbnefechopcdjheblon
