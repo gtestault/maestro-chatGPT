@@ -1,7 +1,7 @@
 {
   "name": "maestro-antd",
   "displayName": "Maestro: ChatGPT prompt automation",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "prompt manager for ChatGPT",
   "author": "Gabriel Testault gabriel@testault.com",
   "scripts": {
