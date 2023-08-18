@@ -16,7 +16,7 @@ const HOST_ID = "engage-csui"
 
 export const getShadowHostId: PlasmoGetShadowHostId = () => HOST_ID
 export const getInlineAnchor: PlasmoGetOverlayAnchor = async () =>
-    document.querySelector(`[role="presentation"]`)
+    document.querySelector(`textarea#prompt-textarea`).parentNode.parentNode as Element
 
 export const getStyle = () => {
     const style = document.createElement("style")

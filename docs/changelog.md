@@ -1,3 +1,8 @@
+## v0.2.1
+(18.08.2023)
+
+- fix anchor for new ChatGPT version
+
 ## v0.2.0 
 (25.07.2023)
 
