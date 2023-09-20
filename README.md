@@ -10,7 +10,7 @@
 [![Static Badge](https://img.shields.io/badge/docs-online-green)](https://gtestault.github.io/maestro-chatGPT/)
 
 
-
+[See Demo](https://maestro-chatgpt.vercel.app/)
 
 Maestro is a prompt automator/manager for ChatGPT. Maestro allows you to write, manage, and execute prompt templates. 
 You can run prompt templates with parameters to increase the efficiency of your ChatGPT workflows.
