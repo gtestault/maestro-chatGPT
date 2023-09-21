@@ -9,7 +9,7 @@
     "build": "plasmo build"
   },
   "dependencies": {
-    "@ant-design/cssinjs": "1.11.1",
+    "@ant-design/cssinjs": "1.11.2",
     "@ant-design/icons": "^5.1.4",
     "@plasmohq/messaging": "^0.5.0",
     "@plasmohq/storage": "^1.7.0",
