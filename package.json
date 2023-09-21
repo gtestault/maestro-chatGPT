@@ -15,7 +15,7 @@
     "@plasmohq/storage": "^1.7.0",
     "antd": "5.7.0",
     "clsx": "^2.0.0",
-    "plasmo": "0.81.0",
+    "plasmo": "0.82.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "string-template": "^1.0.0"
